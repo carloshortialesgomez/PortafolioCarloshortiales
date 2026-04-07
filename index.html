@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carlos Hortiales – Data Analyst & eCommerce</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="icon" type="image/png" href="img/CH.png" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">CH<span class="dot">.</span></div>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#destacados">Proyectos IA</a></li>
+          <li><a href="#trayectoria">Trayectoria</a></li>
+          <li><a href="#tecnologias">Stack</a></li>
+          <li><a href="#contacto" class="nav-cta">Contacto</a></li>
+        </ul>
+      </nav>
+      <button class="menu-toggle" id="menuToggle"><i class="fas fa-bars"></i></button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="inicio" class="hero">
+    <div class="hero-bg">
+      <div class="hero-grid"></div>
+      <div class="hero-glow glow-1"></div>
+      <div class="hero-glow glow-2"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge"><span class="badge-dot"></span> Disponible para proyectos</div>
+      <h1>Carlos <span class="gradient-text">Hortiales</span></h1>
+      <p class="hero-subtitle">Ingeniería · Data Analyst · eCommerce Operations · AI Integration</p>
+      <p class="hero-desc">
+        Más de 10 años automatizando operaciones, construyendo pipelines de datos
+        e integrando inteligencia artificial en procesos de negocio reales.
+      </p>
+      <div class="hero-actions">
+        <a href="#destacados" class="btn-primary">Ver Proyectos IA <i class="fas fa-arrow-down"></i></a>
+        <a href="#trayectoria" class="btn-ghost">Mi Trayectoria</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">10+</span><span class="stat-label">Años de experiencia</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">2</span><span class="stat-label">Países de operación</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">5+</span><span class="stat-label">Proyectos de automatización</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE MÍ -->
+  <section id="sobre-mi">
+    <div class="container">
+      <div class="sobre-grid">
+        <div class="sobre-text">
+          <div class="section-label">Sobre mí</div>
+          <h2>Analista que conecta <span class="gradient-text">datos con decisiones</span></h2>
+          <p>
+            Con experiencia en empresas de retail y eCommerce en México y Estados Unidos,
+            me especializo en construir soluciones que automatizan procesos operativos,
+            desde la ingesta de datos hasta la visualización ejecutiva.
+          </p>
+          <p>
+            Actualmente en <strong>Grupo Comercial Atlas</strong>, integro herramientas de IA
+            (Gemini, Claude) con plataformas de datos (BigQuery, Tableau, Power BI)
+            para generar insights accionables en tiempo real.
+          </p>
+          <div class="sobre-tags">
+            <span class="tag">eCommerce Operations</span>
+            <span class="tag">Data Analytics</span>
+            <span class="tag">AI Integration</span>
+            <span class="tag">Process Automation</span>
+            <span class="tag">Business Intelligence</span>
+          </div>
+        </div>
+        <div class="sobre-visual">
+          <div class="perfil-card">
+            <div class="perfil-header">
+              <div class="perfil-avatar">CH</div>
+              <div>
+                <div class="perfil-name">Carlos Hortiales</div>
+                <div class="perfil-role">Senior Data Analyst</div>
+              </div>
+            </div>
+            <div class="perfil-items">
+              <div class="perfil-item"><i class="fas fa-map-marker-alt"></i> CDMX, México</div>
+              <div class="perfil-item"><i class="fas fa-briefcase"></i> Grupo Comercial Atlas</div>
+              <div class="perfil-item"><i class="fas fa-calendar"></i> 10+ años en el sector</div>
+            </div>
+            <div class="perfil-skills">
+              <div class="skill-bar-item">
+                <span>Power BI / Tableau</span><div class="bar"><div class="bar-fill" style="width:90%"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <span>KNIME / ETL</span><div class="bar"><div class="bar-fill" style="width:85%"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <span>AI Integration</span><div class="bar"><div class="bar-fill" style="width:80%"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <span>eCommerce Ops</span><div class="bar"><div class="bar-fill" style="width:95%"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROYECTOS DESTACADOS IA -->
+  <section id="destacados" class="section-dark">
+    <div class="container">
+      <div class="section-label center">Proyectos más relevantes</div>
+      <h2 class="section-title center">Integración de <span class="gradient-text">Inteligencia Artificial</span></h2>
+      <p class="section-desc center">Los proyectos más recientes e innovadores desarrollados en Grupo Comercial Atlas, combinando IA generativa con plataformas de datos empresariales.</p>
+
+      <!-- PROYECTO 1: TABLEAU + CLAUDE MCP -->
+      <div class="featured-card card-claude">
+        <div class="featured-badge"><i class="fas fa-star"></i> Proyecto Destacado</div>
+        <div class="featured-grid">
+          <div class="featured-info">
+            <div class="featured-company">Grupo Comercial Atlas · 2024–2025</div>
+            <h3>Tableau + Claude via MCP</h3>
+            <p class="featured-tagline">Inteligencia artificial conversacional integrada directamente en los dashboards de Tableau</p>
+            <p class="featured-desc">
+              Integración del protocolo <strong>Model Context Protocol (MCP)</strong> de Anthropic con Tableau,
+              permitiendo que Claude acceda en tiempo real a los datos de los dashboards.
+              Los usuarios pueden hacer preguntas en lenguaje natural sobre las visualizaciones, Fuentes de datos, Workflow
+              y recibir análisis, interpretaciones y recomendaciones generadas por IA dentro de la app de Claude Cowork.
+            </p>
+            <div class="featured-impacts">
+              <div class="impact-item"><i class="fas fa-check-circle"></i> Consultas en lenguaje natural sobre datos de ventas</div>
+              <div class="impact-item"><i class="fas fa-check-circle"></i> Claude interpreta KPIs y genera reportes automáticos</div>
+              <div class="impact-item"><i class="fas fa-check-circle"></i> Reducción en tiempo de análisis ejecutivo</div>
+              <div class="impact-item"><i class="fas fa-check-circle"></i> Conexión bidireccional MCP → Tableau Data Source</div>
+            </div>
+            <div class="featured-stack">
+              <img src="img/tableau.png" alt="Tableau" title="Tableau" class="tech-logo">
+              <img src="https://cdn.simpleicons.org/anthropic/ffffff" alt="Claude/Anthropic" title="Claude (Anthropic)" class="tech-logo">
+              <span class="tech-badge">MCP</span>
+              <span class="tech-badge">REST API</span>
+              <span class="tech-badge">JSON</span>
+            </div>
+          </div>
+          <div class="featured-visual visual-claude">
+            <div class="mockup-window">
+              <div class="mockup-bar">
+                <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                <span class="mockup-title">Tableau + Claude MCP</span>
+              </div>
+              <div class="mockup-body">
+                <div class="mockup-chart-area">
+                  <div class="chart-bars">
+                    <div class="chart-bar" style="height:60%"></div>
+                    <div class="chart-bar" style="height:85%"></div>
+                    <div class="chart-bar" style="height:70%"></div>
+                    <div class="chart-bar" style="height:95%"></div>
+                    <div class="chart-bar" style="height:75%"></div>
+                    <div class="chart-bar" style="height:88%"></div>
+                  </div>
+                </div>
+                <div class="mockup-chat">
+                  <div class="chat-msg user-msg"><i class="fas fa-user"></i> ¿Cuál fue el mejor mes de ventas?</div>
+                  <div class="chat-msg ai-msg"><img src="https://cdn.simpleicons.org/anthropic/e94560" alt="Claude" style="width:14px;height:14px"> Abril registró el mayor crecimiento con +23% vs año anterior...</div>
+                </div>
+              </div>
+            </div>
+            <div class="visual-logos">
+              <img src="img/tableau.png" alt="Tableau" style="width:40px;opacity:0.6">
+              <div class="connector-line"></div>
+              <div class="mcp-badge">MCP</div>
+              <div class="connector-line"></div>
+              <img src="https://cdn.simpleicons.org/anthropic/ffffff" alt="Claude" style="width:36px;opacity:0.6">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROYECTO 2: GEMINI + BIGQUERY -->
+      <div class="featured-card card-gemini">
+        <div class="featured-badge gemini-badge"><i class="fas fa-robot"></i> Proyecto Destacado</div>
+        <div class="featured-grid reverse">
+          <div class="featured-visual visual-gemini">
+            <div class="mockup-window dark-window">
+              <div class="mockup-bar dark-bar">
+                <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                <span class="mockup-title">Agente Gemini → BigQuery</span>
+              </div>
+              <div class="mockup-body code-body">
+                <div class="code-line"><span class="code-kw">agent</span> <span class="code-fn">query_bq</span><span class="code-op">(</span></div>
+                <div class="code-line indent"><span class="code-str">"¿Cuántos pedidos pendientes hay hoy?"</span></div>
+                <div class="code-line"><span class="code-op">)</span></div>
+                <div class="code-divider">▶ Ejecutando SQL en BigQuery...</div>
+                <div class="code-line result"><span class="code-kw">→</span> <span class="code-num">1,247</span> pedidos · <span class="code-str">$2.3M</span></div>
+                <div class="code-line result"><span class="code-kw">→</span> Top categoría: <span class="code-str">Colchones Premium</span></div>
+                <div class="code-line result warning"><span class="code-kw">⚠</span> 38 pedidos con incidencia</div>
+              </div>
+            </div>
+            <div class="visual-logos">
+              <img src="https://cdn.simpleicons.org/googlegemini/4285F4" alt="Gemini" style="width:38px;opacity:0.7">
+              <div class="connector-line gemini-line"></div>
+              <img src="https://cdn.simpleicons.org/googlebigquery/669DF6" alt="BigQuery" style="width:36px;opacity:0.7">
+            </div>
+          </div>
+          <div class="featured-info">
+            <div class="featured-company">Grupo Comercial Atlas · 2024–2025</div>
+            <h3>Agente Gemini + BigQuery</h3>
+            <p class="featured-tagline">Agente conversacional que consulta el data warehouse en tiempo real</p>
+            <p class="featured-desc">
+              Desarrollo de un <strong>agente inteligente con Google Gemini</strong> conectado directamente
+              a <strong>BigQuery</strong> como fuente de datos. El agente entiende preguntas de negocio
+              en lenguaje natural, las traduce a consultas SQL optimizadas y devuelve análisis
+              enriquecidos con contexto empresarial sobre órdenes, inventario y operaciones eCommerce.
+            </p>
+            <div class="featured-impacts">
+              <div class="impact-item"><i class="fas fa-check-circle"></i> Consultas SQL generadas automáticamente por IA</div>
+              <div class="impact-item"><i class="fas fa-check-circle"></i> Acceso a datos históricos de millones de órdenes</div>
+              <div class="impact-item"><i class="fas fa-check-circle"></i> Alertas inteligentes sobre anomalías en pedidos</div>
+              <div class="impact-item"><i class="fas fa-check-circle"></i> Integración con pipeline de datos Google Cloud</div>
+            </div>
+            <div class="featured-stack">
+              <img src="https://cdn.simpleicons.org/googlegemini/4285F4" alt="Gemini" title="Google Gemini" class="tech-logo">
+              <img src="https://cdn.simpleicons.org/googlebigquery/669DF6" alt="BigQuery" title="Google BigQuery" class="tech-logo">
+              <img src="https://cdn.simpleicons.org/googlecloud/4285F4" alt="GCP" title="Google Cloud Platform" class="tech-logo">
+              <span class="tech-badge gemini-tech">Vertex AI</span>
+              <span class="tech-badge gemini-tech">SQL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRAYECTORIA -->
+  <section id="trayectoria">
+    <div class="container">
+      <div class="section-label">Historial profesional</div>
+      <h2 class="section-title">Mi <span class="gradient-text">Trayectoria</span></h2>
+
+      <div class="timeline">
+
+        <!-- ATLAS DEL DESCANSO -->
+        <div class="timeline-item current">
+          <div class="timeline-marker current-marker">
+            <i class="fas fa-briefcase"></i>
+          </div>
+          <div class="timeline-card current-card">
+            <div class="timeline-header">
+              <div>
+                <div class="tl-company">Grupo Comercial Atlas <span class="current-tag">Actual</span></div>
+                <h3 class="tl-role">Data Analyst & eCommerce Operations</h3>
+                <div class="tl-meta"><i class="fas fa-map-marker-alt"></i> CDMX, México &nbsp;·&nbsp; <i class="fas fa-calendar"></i> 2022 – Presente</div>
+              </div>
+              <div class="company-logo-area atlas-logo"><img src="img/atlas.jpg" alt="Atlas del Descanso"></div>
+            </div>
+            <div class="tl-content">
+              <p>Líder de análisis de datos para <strong>Atlas del Descanso</strong>, cadena de retail de colchones y muebles. Responsable de la automatización de operaciones eCommerce, construcción de pipelines de datos y la reciente integración de IA generativa en procesos analíticos.</p>
+
+              <div class="tl-projects">
+                <div class="tl-project">
+                  <div class="tl-project-icon knime-icon"><img src="https://cdn.simpleicons.org/knime/FFD700" alt="KNIME" style="width:22px"></div>
+                  <div>
+                    <strong>Automatización KNIME: Órdenes eCommerce vs ERP</strong>
+                    <p>Desarrollo de workflows en KNIME para el análisis automático de órdenes del canal eCommerce contra el sistema ERP. El proceso cruza datos de múltiples fuentes, detecta discrepancias y genera alertas operativas, reduciendo el tiempo de conciliación.</p>
+                  </div>
+                </div>
+                <div class="tl-project">
+                  <div class="tl-project-icon bi-icon"><img src="img/powerbi.png" alt="Power BI" style="width:22px"></div>
+                  <div>
+                    <strong>Dashboards Power BI – Rescate y nuevos desarrollos</strong>
+                    <p>Rescate y conclusión de proyectos de dashboards inconclusos en Power BI, seguido del desarrollo de nuevos reportes ejecutivos. Actualmente se cuenta con un ecosistema completo de visualización para ventas, inventario y operaciones eCommerce.</p>
+                  </div>
+                </div>
+                <div class="tl-project">
+                  <div class="tl-project-icon audit-icon"><i class="fas fa-shield-alt" style="color:#e94560"></i></div>
+                  <div>
+                    <strong>App de Auditoría de Despacho</strong>
+                    <p>Desarrollo de aplicación para auditoría en tiempo real del proceso de despacho. Garantiza que cada pedido eCommerce sea preparado y enviado correctamente, validando artículos, cantidades y destinos antes del envío.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tl-stack">
+              <img src="https://cdn.simpleicons.org/knime/FFD700" alt="KNIME" class="stack-icon" title="KNIME">
+              <img src="img/powerbi.png" alt="Power BI" class="stack-icon" title="Power BI">
+              <img src="img/tableau.png" alt="Tableau" class="stack-icon" title="Tableau">
+              <img src="https://cdn.simpleicons.org/googlebigquery/669DF6" alt="BigQuery" class="stack-icon" title="BigQuery">
+              <img src="https://cdn.simpleicons.org/anthropic/ffffff" alt="Claude" class="stack-icon" title="Claude / Anthropic">
+              <img src="https://cdn.simpleicons.org/googlegemini/4285F4" alt="Gemini" class="stack-icon" title="Google Gemini">
+            </div>
+          </div>
+        </div>
+
+        <!-- TARGET CORPORATION -->
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <i class="fas fa-store"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <div class="tl-company">Target Corporation</div>
+                <h3 class="tl-role">Warehouse Operations Analyst</h3>
+                <div class="tl-meta"><i class="fas fa-map-marker-alt"></i> Jackson Hole, WY – USA &nbsp;·&nbsp; <i class="fas fa-calendar"></i> Enero 2024 – Diciembre 2025</div>
+              </div>
+              <div class="company-logo-area target-logo">
+                <i class="fas fa-bullseye" style="font-size:1.8rem;color:#cc0000"></i>
+              </div>
+            </div>
+            <div class="tl-content">
+              <p>
+                Auditoría de operaciones ejecutadas dentro del <strong>Warehouse Management System (WMS)</strong>.
+                Seguimiento del calendario de mantenimiento del sistema para la detección y reporte de errores
+                que pudieran comprometer el funcionamiento correcto del almacén.
+              </p>
+              <ul class="tl-bullets">
+                <li>Revisión y validación de transacciones en el WMS conforme a protocolos de calidad</li>
+                <li>Identificación de patrones de error recurrentes y propuesta de acciones correctivas</li>
+                <li>Coordinación con el equipo de TI para la resolución de incidencias del sistema</li>
+                <li>Documentación de hallazgos en reportes de auditoría periódicos</li>
+              </ul>
+            </div>
+            <div class="tl-stack">
+              <span class="stack-tag">WMS</span>
+              <span class="stack-tag">Auditoría</span>
+              <span class="stack-tag">Warehouse Ops</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- SMITH'S FOOD AND DRUG -->
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <div class="tl-company">Smith's Food and Drug Centers (Kroger)</div>
+                <h3 class="tl-role">eCommerce QA – Instacart Implementation</h3>
+                <div class="tl-meta"><i class="fas fa-map-marker-alt"></i> Jackson Hole, WY – USA &nbsp;·&nbsp; <i class="fas fa-calendar"></i> Jun 2023 – Abr 2024</div>
+              </div>
+              <div class="company-logo-area smiths-logo"><img src="img/smith.png" alt="Smith's"></div>
+            </div>
+            <div class="tl-content">
+              <p>
+                Miembro clave del equipo encargado de implementar el sistema <strong>Instacart</strong>
+                y el modelo de negocio <strong>Delivery & PickUp</strong>. Responsable de validar
+                todo el flujo del usuario desde el ingreso al aplicativo hasta la entrega exitosa de la orden.
+              </p>
+              <ul class="tl-bullets">
+                <li>Pruebas end-to-end del flujo de usuario en la app de Instacart (navegación, carrito, pago, confirmación)</li>
+                <li>Validación del proceso de picking en tienda y empaque correcto de órdenes</li>
+                <li>Testing del módulo de PickUp: comunicación al cliente, tiempo de respuesta y entrega</li>
+                <li>Reporte de bugs y seguimiento hasta su resolución con el equipo técnico de Instacart/Kroger</li>
+              </ul>
+            </div>
+            <div class="tl-stack">
+              <span class="stack-tag">Instacart</span>
+              <span class="stack-tag">QA Testing</span>
+              <span class="stack-tag">Delivery & PickUp</span>
+              <span class="stack-tag">eCommerce</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- CASA CRAVIOTO -->
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <i class="fas fa-globe"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <div class="tl-company">Casa Cravioto S.A. de C.V.</div>
+                <h3 class="tl-role">Coordinador eCommerce & Estrategia Digital</h3>
+                <div class="tl-meta"><i class="fas fa-map-marker-alt"></i> CDMX, México &nbsp;·&nbsp; <i class="fas fa-calendar"></i> Feb 2013 – Jun 2023</div>
+              </div>
+              <div class="company-logo-area cravioto-logo"><img src="img/casacravioto.png" alt="Casa Cravioto"></div>
+            </div>
+            <div class="tl-content">
+              <p>
+                9 años liderando la transformación digital del negocio. Coordiné la implementación
+                completa de los proyectos <strong>B2B y B2C</strong>, desde el diseño y desarrollo
+                hasta la puesta en operación y seguimiento de resultados.
+              </p>
+              <ul class="tl-bullets">
+                <li>Diseño, desarrollo e implementación del proceso operativo eCommerce B2B y B2C</li>
+                <li>Definición y seguimiento de KPIs comerciales y operativos del canal digital</li>
+                <li>Gestión y análisis de campañas mediante Google Analytics (tráfico, conversiones, embudo)</li>
+                <li>Colaboración en estrategias de marketing digital y redes sociales</li>
+                <li>Coordinación entre áreas de tecnología, logística y comercial para la operación del canal</li>
+              </ul>
+            </div>
+            <div class="tl-stack">
+              <img src="https://cdn.simpleicons.org/googleanalytics/E37400" alt="Google Analytics" class="stack-icon" title="Google Analytics">
+              <span class="stack-tag">B2B / B2C</span>
+              <span class="stack-tag">KPIs</span>
+              <span class="stack-tag">Estrategia Digital</span>
+              <span class="stack-tag">Redes Sociales</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- STACK TECNOLÓGICO -->
+  <section id="tecnologias" class="section-dark">
+    <div class="container">
+      <div class="section-label center">Herramientas & plataformas</div>
+      <h2 class="section-title center">Stack <span class="gradient-text">Tecnológico</span></h2>
+
+      <div class="tech-grid">
+        <div class="tech-category">
+          <div class="tech-cat-title"><i class="fas fa-robot"></i> Inteligencia Artificial</div>
+          <div class="tech-items">
+            <div class="tech-item">
+              <img src="https://cdn.simpleicons.org/anthropic/e94560" alt="Claude">
+              <span>Claude (Anthropic)</span>
+            </div>
+            <div class="tech-item">
+              <img src="https://cdn.simpleicons.org/googlegemini/4285F4" alt="Gemini">
+              <span>Google Gemini</span>
+            </div>
+            <div class="tech-item ai-item">
+              <i class="fas fa-plug" style="color:#9b59b6;font-size:1.4rem"></i>
+              <span>MCP Protocol</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tech-category">
+          <div class="tech-cat-title"><i class="fas fa-chart-bar"></i> Business Intelligence</div>
+          <div class="tech-items">
+            <div class="tech-item">
+              <img src="img/powerbi.png" alt="Power BI">
+              <span>Power BI</span>
+            </div>
+            <div class="tech-item">
+              <img src="img/tableau.png" alt="Tableau">
+              <span>Tableau</span>
+            </div>
+            <div class="tech-item">
+              <img src="https://cdn.simpleicons.org/googleanalytics/E37400" alt="Google Analytics">
+              <span>Google Analytics</span>
+            </div>
+            <div class="tech-item">
+              <img src="https://cdn.simpleicons.org/looker/4285F4" alt="Looker">
+              <span>Looker Studio</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tech-category">
+          <div class="tech-cat-title"><i class="fas fa-database"></i> Datos & Cloud</div>
+          <div class="tech-items">
+            <div class="tech-item">
+              <img src="https://cdn.simpleicons.org/googlebigquery/669DF6" alt="BigQuery">
+              <span>BigQuery</span>
+            </div>
+            <div class="tech-item">
+              <img src="https://cdn.simpleicons.org/googlecloud/4285F4" alt="Google Cloud">
+              <span>Google Cloud</span>
+            </div>
+            <div class="tech-item">
+              <i class="fas fa-table" style="color:#888;font-size:1.4rem"></i>
+              <span>SQL</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tech-category">
+          <div class="tech-cat-title"><i class="fas fa-cogs"></i> Automatización & ETL</div>
+          <div class="tech-items">
+            <div class="tech-item">
+              <img src="https://cdn.simpleicons.org/knime/FFD700" alt="KNIME">
+              <span>KNIME</span>
+            </div>
+            <div class="tech-item">
+              <i class="fas fa-project-diagram" style="color:#00b894;font-size:1.4rem"></i>
+              <span>ETL Pipelines</span>
+            </div>
+            <div class="tech-item">
+              <i class="fas fa-code" style="color:#74b9ff;font-size:1.4rem"></i>
+              <span>REST APIs</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tech-category">
+          <div class="tech-cat-title"><i class="fas fa-shopping-bag"></i> eCommerce</div>
+          <div class="tech-items">
+            <div class="tech-item">
+              <i class="fas fa-store" style="color:#e74c3c;font-size:1.4rem"></i>
+              <span>WMS</span>
+            </div>
+            <div class="tech-item">
+              <i class="fas fa-truck" style="color:#27ae60;font-size:1.4rem"></i>
+              <span>Instacart</span>
+            </div>
+            <div class="tech-item">
+              <img src="img/magento.png" alt="Magento">
+              <span>Magento</span>
+            </div>
+            <div class="tech-item">
+              <i class="fas fa-exchange-alt" style="color:#f39c12;font-size:1.4rem"></i>
+              <span>ERP Integration</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tech-category">
+          <div class="tech-cat-title"><i class="fas fa-shield-alt"></i> QA & Auditoría</div>
+          <div class="tech-items">
+            <div class="tech-item">
+              <i class="fas fa-tasks" style="color:#9b59b6;font-size:1.4rem"></i>
+              <span>QA Testing</span>
+            </div>
+            <div class="tech-item">
+              <i class="fas fa-search" style="color:#3498db;font-size:1.4rem"></i>
+              <span>Auditoría Ops</span>
+            </div>
+            <div class="tech-item">
+              <i class="fas fa-chart-line" style="color:#e94560;font-size:1.4rem"></i>
+              <span>KPI Tracking</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tech-category">
+          <div class="tech-cat-title"><i class="fas fa-laptop-code"></i> Desarrollo & IDEs</div>
+          <div class="tech-items">
+            <div class="tech-item">
+              <img src="https://cdn.simpleicons.org/pycharm/21D789" alt="PyCharm">
+              <span>PyCharm</span>
+            </div>
+            <div class="tech-item">
+              <img src="https://cdn.simpleicons.org/androidstudio/3DDC84" alt="Android Studio">
+              <span>Android Studio</span>
+            </div>
+            <div class="tech-item">
+              <img src="https://cdn.simpleicons.org/googlecloud/4285F4" alt="Google Cloud">
+              <span>Google Cloud</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tech-category">
+          <div class="tech-cat-title"><i class="fas fa-store"></i> Marketplaces</div>
+          <div class="tech-items">
+            <div class="tech-item">
+              <img src="img/MELI.png" alt="MercadoLibre">
+              <span>MercadoLibre</span>
+            </div>
+            <div class="tech-item">
+              <img src="img/amazon.png" alt="Amazon">
+              <span>Amazon</span>
+            </div>
+            <div class="tech-item">
+              <img src="img/walmart.png" alt="Walmart">
+              <span>Walmart</span>
+            </div>
+            <div class="tech-item">
+              <img src="img/liverpool.png" alt="Liverpool">
+              <span>Liverpool</span>
+            </div>
+            <div class="tech-item">
+              <img src="img/elektra.png" alt="Elektra">
+              <span>Elektra</span>
+            </div>
+            <div class="tech-item">
+              <img src="img/coppel.png" alt="Coppel">
+              <span>Coppel</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tech-category">
+          <div class="tech-cat-title"><i class="fas fa-plug"></i> Integradores</div>
+          <div class="tech-items">
+            <div class="tech-item">
+              <i class="fas fa-network-wired" style="color:#00c4b4;font-size:1.4rem"></i>
+              <span>Producteca</span>
+            </div>
+            <div class="tech-item">
+              <i class="fas fa-wind" style="color:#6c63ff;font-size:1.4rem"></i>
+              <span>Ventiapp</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto">
+    <div class="container">
+      <div class="contact-wrapper">
+        <div class="section-label center">¿Hablamos?</div>
+        <h2 class="section-title center">Conectemos</h2>
+        <p class="section-desc center">¿Tienes un proyecto de datos, automatización o integración de IA? Estoy disponible para colaborar.</p>
+        <div class="contact-links">
+          <a href="mailto:carlos.hortiales.gomez@gmail.com" class="contact-card">
+            <i class="fas fa-envelope"></i>
+            <span>Email</span>
+            <small>carlos.hortiales.gomez@gmail.com</small>
+          </a>
+          <a href="https://www.linkedin.com/in/carlos-hortiales/" target="_blank" class="contact-card">
+            <i class="fab fa-linkedin"></i>
+            <span>LinkedIn</span>
+            <small>Perfil profesional</small>
+          </a>
+          <a href="tel:5540286295" class="contact-card">
+            <i class="fas fa-phone"></i>
+            <span>Teléfono</span>
+            <small>55 4028 6295</small>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="nav-logo">CH<span class="dot">.</span></div>
+        <p>&copy; 2026 Carlos Hortiales · Data Analyst & eCommerce Specialist</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
