@@ -125,6 +125,28 @@ nav ul li a:hover {
   opacity: 1 !important;
 }
 
+.lang-toggle {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid var(--border-hover);
+  color: var(--text-secondary);
+  padding: 0.3rem 0.8rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: color 0.2s, background 0.2s, border-color 0.2s;
+  letter-spacing: 0.08em;
+  font-family: var(--font-main);
+  line-height: 1;
+}
+
+.lang-toggle:hover {
+  color: var(--text-primary);
+  background: rgba(255,255,255,0.1);
+  border-color: var(--accent-red);
+  color: var(--accent-red);
+}
+
 .menu-toggle {
   display: none;
   background: none;
