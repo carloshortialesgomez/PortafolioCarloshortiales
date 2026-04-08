@@ -21,7 +21,7 @@ const translations = {
     // Sobre mí
     section_sobre_label: 'Sobre mí',
     section_sobre_h2: 'Analista que conecta <span class="gradient-text">datos con decisiones</span>',
-    sobre_p1: 'Con experiencia en empresas de retail y eCommerce en México y Estados Unidos, me especializo en construir soluciones que automatizan procesos operativos, desde la ingesta de datos hasta la visualización ejecutiva.',
+    sobre_p1: 'Con experiencia en empresas de retail y eCommerce en México y Estados Unidos, me especializo en construir soluciones que automatizan procesos operativos repetitivos: conciliación de pagos, cruce de órdenes entre marketplaces y ERP, auditoría de despacho y pipelines de datos, desde la ingesta hasta la visualización ejecutiva.',
     sobre_p2: 'Actualmente en <strong>Grupo Comercial Atlas</strong>, integro herramientas de IA (Gemini, Claude) con plataformas de datos (BigQuery, Tableau) para generar insights accionables en tiempo real. <strong>Tableau</strong> es mi herramienta principal de visualización y análisis.',
     perfil_years: '10+ años en el sector',
     // Proyectos
@@ -57,6 +57,10 @@ const translations = {
     atlas_proj2_desc: 'Desarrollo y rescate de dashboards en Tableau como herramienta principal de BI. Se construyó un ecosistema completo de reportes ejecutivos para ventas, inventario y operaciones eCommerce, incluyendo la integración con Claude via MCP para análisis en lenguaje natural.',
     atlas_proj3_title: 'App de Auditoría de Despacho',
     atlas_proj3_desc: 'Desarrollo de aplicación para auditoría en tiempo real del proceso de despacho. Garantiza que cada pedido eCommerce sea preparado y enviado correctamente, validando artículos, cantidades y destinos antes del envío.',
+    atlas_proj4_title: 'Conciliación Automática de Pagos',
+    atlas_proj4_desc: 'Automatización del proceso de conciliación de pagos recibidos por múltiples medios (MercadoPago, Clip, transferencias bancarias) contra los registros contables del ERP. El workflow detecta diferencias, clasifica discrepancias por tipo (rechazos, duplicados, pendientes) y genera reportes listos para el área financiera, eliminando el proceso manual y reduciendo el tiempo de cierre.',
+    atlas_proj5_title: 'Conciliación de Órdenes Marketplaces vs ERP',
+    atlas_proj5_desc: 'Automatización del cruce de órdenes generadas en marketplaces (MercadoLibre, Amazon) contra las órdenes registradas en el ERP Intelisis. El proceso identifica órdenes faltantes, diferencias en montos y estatus inconsistentes, generando alertas automáticas para el equipo operativo y garantizando la integridad entre los sistemas de venta y el sistema de gestión interno.',
     target_desc: 'Auditoría de operaciones ejecutadas dentro del <strong>Warehouse Management System (WMS)</strong>. Seguimiento del calendario de mantenimiento del sistema para la detección y reporte de errores que pudieran comprometer el funcionamiento correcto del almacén.',
     target_b1: 'Revisión y validación de transacciones en el WMS conforme a protocolos de calidad',
     target_b2: 'Identificación de patrones de error recurrentes y propuesta de acciones correctivas',
@@ -113,7 +117,7 @@ const translations = {
     // About
     section_sobre_label: 'About me',
     section_sobre_h2: 'Analyst who connects <span class="gradient-text">data with decisions</span>',
-    sobre_p1: 'With experience in retail and eCommerce companies in Mexico and the United States, I specialize in building solutions that automate operational processes, from data ingestion to executive visualization.',
+    sobre_p1: 'With experience in retail and eCommerce companies in Mexico and the United States, I specialize in building solutions that automate repetitive operational processes: payment reconciliation, cross-referencing orders between marketplaces and ERP, dispatch auditing, and data pipelines — from ingestion to executive visualization.',
     sobre_p2: 'Currently at <strong>Grupo Comercial Atlas</strong>, I integrate AI tools (Gemini, Claude) with data platforms (BigQuery, Tableau) to generate actionable insights in real time. <strong>Tableau</strong> is my primary visualization and analysis tool.',
     perfil_years: '10+ years in the industry',
     // Projects
@@ -149,6 +153,10 @@ const translations = {
     atlas_proj2_desc: 'Development and recovery of Tableau dashboards as the primary BI tool. A complete ecosystem of executive reports was built for sales, inventory, and eCommerce operations, including Claude via MCP integration for natural language analysis.',
     atlas_proj3_title: 'Dispatch Audit App',
     atlas_proj3_desc: 'Development of an application for real-time auditing of the dispatch process. Ensures each eCommerce order is prepared and shipped correctly, validating items, quantities, and destinations before shipping.',
+    atlas_proj4_title: 'Automated Payment Reconciliation',
+    atlas_proj4_desc: 'Automation of the payment reconciliation process for multiple channels (MercadoPago, Clip, bank transfers) against ERP accounting records. The workflow detects discrepancies, classifies them by type (rejections, duplicates, pending), and generates reports ready for the finance team — eliminating manual work and reducing financial close time.',
+    atlas_proj5_title: 'Marketplace Orders vs ERP Reconciliation',
+    atlas_proj5_desc: 'Automation of order cross-referencing between marketplace platforms (MercadoLibre, Amazon) and ERP Intelisis records. The process identifies missing orders, amount discrepancies, and inconsistent statuses, triggering automatic alerts for the operations team and ensuring data integrity between sales channels and the internal management system.',
     target_desc: 'Audit of operations executed within the <strong>Warehouse Management System (WMS)</strong>. Monitoring of the system maintenance calendar for the detection and reporting of errors that could compromise the correct functioning of the warehouse.',
     target_b1: 'Review and validation of WMS transactions according to quality protocols',
     target_b2: 'Identification of recurring error patterns and proposal of corrective actions',
