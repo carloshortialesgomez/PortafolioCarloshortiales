@@ -210,8 +210,8 @@ function setLanguage(lang) {
   });
 
   // Actualizar botón
-  const btn = document.getElementById('langToggle');
-  if (btn) btn.textContent = lang === 'es' ? 'EN' : 'ES';
+  const label = document.getElementById('langLabel');
+  if (label) label.textContent = lang === 'es' ? 'EN' : 'ES';
 
   // Actualizar atributo lang del HTML
   document.documentElement.lang = lang;
