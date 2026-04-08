@@ -4,7 +4,8 @@
       "Bash(npm --version)",
       "Bash(firebase projects:list)",
       "Bash(firebase deploy:*)",
-      "Bash(git:*)"
+      "Bash(git:*)",
+      "Bash(ls:*)"
     ]
   }
 }

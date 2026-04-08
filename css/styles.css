@@ -446,6 +446,15 @@ section {
 
 .perfil-item i { color: var(--accent-red); width: 16px; }
 
+.perfil-link {
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.perfil-link:hover {
+  color: var(--accent-red);
+}
+
 .skill-bar-item { margin-bottom: 0.85rem; }
 
 .skill-bar-item span {
