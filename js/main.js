@@ -11,7 +11,7 @@ const translations = {
     nav_contacto: 'Contacto',
     // Hero
     hero_badge: 'Disponible para proyectos',
-    hero_subtitle: 'Ingeniería · Data Analyst · eCommerce Operations · AI Integration',
+    hero_subtitle: 'Ingeniería · Automatización · Data Analyst · eCommerce Operations · AI Integration',
     hero_desc: 'Más de 10 años automatizando operaciones, construyendo pipelines de datos e integrando inteligencia artificial en procesos de negocio reales.',
     hero_btn_projects: 'Ver Proyectos IA',
     hero_btn_career: 'Mi Trayectoria',
@@ -94,7 +94,7 @@ const translations = {
     // Contacto
     contact_label: '¿Hablamos?',
     contact_h2: 'Conectemos',
-    contact_desc: '¿Tienes un proyecto de datos, automatización o integración de IA? Estoy disponible para colaborar.',
+    contact_desc: '¿Tienes un proyecto de datos, automatización o integración de IA?',
     contact_linkedin_small: 'Perfil profesional',
     contact_phone: 'Teléfono',
   },
@@ -107,7 +107,7 @@ const translations = {
     nav_contacto: 'Contact',
     // Hero
     hero_badge: 'Available for projects',
-    hero_subtitle: 'Engineering · Data Analyst · eCommerce Operations · AI Integration',
+    hero_subtitle: 'Engineering · Automation · Data Analyst · eCommerce Operations · AI Integration',
     hero_desc: 'Over 10 years automating operations, building data pipelines and integrating artificial intelligence into real business processes.',
     hero_btn_projects: 'View AI Projects',
     hero_btn_career: 'My Career',
@@ -190,7 +190,7 @@ const translations = {
     // Contact
     contact_label: "Let's talk?",
     contact_h2: "Let's connect",
-    contact_desc: 'Do you have a data, automation, or AI integration project? I\'m available to collaborate.',
+    contact_desc: 'Do you have a data, automation, or AI integration project?',
     contact_linkedin_small: 'Professional profile',
     contact_phone: 'Phone',
   }
