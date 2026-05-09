@@ -97,6 +97,7 @@ const translations = {
     contact_desc: '¿Tienes un proyecto de datos, automatización o integración de IA?',
     contact_linkedin_small: 'Perfil profesional',
     contact_phone: 'Teléfono',
+    contact_phone_small: 'Llamame',
   },
   en: {
     // Navbar
@@ -193,6 +194,7 @@ const translations = {
     contact_desc: 'Do you have a data, automation, or AI integration project?',
     contact_linkedin_small: 'Professional profile',
     contact_phone: 'Phone',
+    contact_phone_small: 'Call me',
   }
 };
 
